@@ -57,6 +57,14 @@ body h1 {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.secundariaderecha{
+	width:100%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .secundariaizquierda{
 	width:100%;
 	display:block;
@@ -73,7 +81,7 @@ body h1 {
 #imagen2 img{
 	transition-property:rotate;
 	border: solid 2px black;
-	box-shadow: 5px 5px #82c3a6;
+	box-shadow: 2px 2px #02010a;
 
 }
 
@@ -86,7 +94,7 @@ body h1 {
 
 #imagen3 img{
 	border: solid 2px black;
-	box-shadow: 5px 5px #82c3a6;
+	box-shadow: 2px 2px #02010a;
   transform:translate(0px);
 }
 
@@ -94,7 +102,47 @@ body h1 {
 	transform:translate(20px,-5px);
 }
 
-.secundariaderecha{
+#paisaje1 img{
+	border: solid 2px black;
+	box-shadow: 2px 2px #02010a;
+	-webkit-filter: blur(10px); /* Chrome, Safari, Opera */
+  filter: blur(10px);
+}
+
+#paisaje2 img{
+	border: solid 2px black;
+	box-shadow: 2px 2px #02010a;
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
+}
+
+#paisaje3 img{
+	border: solid 2px black;
+	box-shadow: 2px 2px #02010a;
+	-webkit-filter: sepia(90%); /* Chrome, Safari, Opera */
+  filter: sepia(90%);
+}
+
+#paisaje4 img{
+	border: solid 2px black;
+	box-shadow: 2px 2px #02010a;
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
+}
+
+#paisaje5 img{
+	border: solid 2px black;
+	box-shadow: 2px 2px #02010a;
+}
+
+#paisaje6 img{
+	border: solid 2px black;
+	box-shadow: 2px 2px #02010a;
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
+}
+
+.paisaje{
 	width:100%;
 	display:block;
 	margin-left: auto;
@@ -106,16 +154,15 @@ body h1 {
 	background-color: #82c3a6;
 }
 
-.c3 {
+.c3, .c4 {
 	color: black;
 	background-color: #d5c75f;
-	border: 1px solid black;
+
 }
 
-.c4 {
+.pa1, .pa2, .pa3, .pa4, .pa5, .pa6 {
 	color: black;
 	background-color: #d5c75f;
-	border: 1px solid black;
 }
 
 .container {
@@ -133,6 +180,10 @@ body h1 {
 }
 
 .c1, .c2, .c3, .c4 {
+	width: 100%;
+}
+
+.pa1, .pa2, .pa3, .pa4, .pa5, .pa6 {
 	width: 100%;
 }
 
@@ -154,22 +205,25 @@ body h1 {
 	.c2, .c3, .c4 {
 		width: 50%;
 	}
+	.pa1, .pa2, .pa3, .pa4, .pa5, .pa6 {
+		width: 50%;
+	}
 	.p1, .p2, .p3, .p4 {
 		width: 25%;
 	}
 }
 
 @media (min-width: 900px) {
-	.c1 {
-		width: 100%;
-	}
-
-	.c2 {
+	.c1, .c2 {
 		width: 100%;
 	}
 
 	.c3, .c4 {
 		width: 50%;
+	}
+
+	.pa1, .pa2, .pa3, .pa4, .pa5, .pa6 {
+		width: 33.33%;
 	}
 
 	.p1, .p2, .p3, .p4 {
