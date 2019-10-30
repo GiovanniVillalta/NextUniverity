@@ -3,22 +3,180 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <!--Importar la fuente de los íconos de Google-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--Importar la hojas de estilos de materialize css-->
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/customColors.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href="css/estilos.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <title>NextU Blog de Turismo</title>
+
 </head>
-<body>
+<body class="imagen-fondo">
 
+  <div class="row">  <!-- INICIO FILA GENERAL-->
+    <div class="s12 m12 l12 col ">
+      <div class="navbar-fixed">
+        <nav>
+          <div class="container">
+            <button class="waves-effect waves-light button btn" type="button">Inicio<i class="material-icons left">home</i></button>
+            <button class="waves-effect waves-light button btn" type="button">Estuve en...<i class="material-icons left">location_on</i></button>
+            <button class="waves-effect waves-light button btn" type="button">Mejores viajes<i class="material-icons left">star</i></button>
+            <button class="waves-effect waves-light button btn" type="button">Recomendaciones<i class="material-icons left">comment</i></button>
+          </div>
+        </nav>
+      </div>
+      <div class="s9 m6 l3 col">
+        <a href="#!"> <img class="logo" src="img\logo.jpg"></a>
+      </div>
+      <div class="s12 m12 l8 col">
+        <h4 class="center-aling">Una idea un viaje</h4>
+      </div>
+    </div> <!-- FIN 12 COLUMNAS-->
 
+    <div class="row">
+      <div class="s1 m1 l1 col hide-on-med-and-down">
+        <div class="icon">
+          <i class="fa fa-facebook circle teal accent-4"></i>
+        </div>
+        <div class="icon">
+          <i class="fa fa-twitter circle  teal accent-4"></i>
+        </div>
+        <div class="icon">
+          <i class="fa fa-pinterest circle teal accent-4"></i>
+        </div>
+        <div class="icon">
+          <i class="fa fa-youtube circle teal accent-4"></i>
+        </div>
+        <div class="icon">
+          <i class="fa fa-instagram circle teal accent-4"></i>
+        </div>
+      </div>
+      <div class="s12 m6 l4 col">
+        <img src="img/1.jpg" class="responsive-img z-depth-5"/>
+        <img src="img/2.jpg" class="responsive-img z-depth-4"/>
+      </div>
+      <div class="s12 m6 l4 col">
+          <img src="img/3.jpg" class="responsive-img z-depth-3"/>
+      </div>
+      <div class="s12 m6 l3 col">
+          <img src="img/4.jpg" class="responsive-img z-depth-2"/>
+          <img src="img/5.jpg" class="responsive-img z-depth-1"/>
+      </div>
+    </div>
 
+    <div class="row color-transparente">
+      <div class="s12 m6 l9 col"> <!-- INICIO 9 COLUMNAS-->
+        <h4>Los mejores consejos para visitar y disfrutar de Berlín en tres días</h4>
+          <div class="chip">13 agosto 2019<i class="material-icons left">date_range</i></div>
+          <div class="chip">Berlin-Alemania<i class="material-icons left">location_on</i></div>
+          <div class="row">
+            <div class="s12 m12 l4 col">
+              <img src="img/Berlin.jpg" class="responsive-img z-depth-4"/>
+            </div>
+            <div class="s12 m12 l8 col">
+              <p style="text-align:justify" >Berlín se ha convertido en los últimos tiempos en uno de las ciudades europeas más visitadas por los españoles.
+                Es más, se trata de un destino muy idóneo para un viaje aprovechando un puente ya que en la capital de Alemania
+                encontrarás numerosos y muy variados atractivos.
+                Si estás preparando tu primer viaje a Berlín,  te serán útiles estos consejos para tu visita de turismo,
+                los cuales te permitirán tener una primera visión de lo que te vas a encontrar.Estos consejos te los doy
+                como conclusión de mi último viaje turístico a Berlín, donde estuve cuatro días visitando la ciudad.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="s12 m12 l12 col">
+              <p style="text-align:justify" >De cara a tu visita, te adelanto que Berlín es una ciudad enorme.
+                Se trata de la urbe con mayor extensión de Europa, superando a ciudades como Londres y París,
+                si bien con sus 3,4 millones de habitantes tiene mucha menor densidad de población, lo cual agradecerás en tus jornadas turísticas.
+                Cuando vueles a Berlín, aún tienes dos posibles aeropuertos donde llegar.
+                El aeropuerto de Tegel situado en la antigua zona occidental de la ciudad, se encuentra muy cerca del centro de
+                la ciudad, a sólo 6 kilómetros (unos 15 euros si prefieres ir en taxi).El aeropuerto de Shonefeld está más lejos,
+                fuera del centro urbano, a unos 18 kilómetros, y tras sucesivos retrasos de varios años, parece que finalmente
+                la inauguración de una nueva gran terminal será a lo largo de 2019. A partir de entonces el aeropuerto de Berlín pasará a
+                denominarse aeropuerto de Berlín-Brandenburgo Willy Brandt y se va a convertir en la única opción para volar a
+                la capital alemana pues el citado aeropuerto de Tegel se clausurará.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="s12 m12 l12 col">
+              <div class="input-field col s12 m12 l12">
+                <i class="material-icons prefix">comment</i>
+                <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                <label for="icon_prefix2">Comentario</label>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="s12 m12 l12 col">
+              <h4>Los Mejores Sitios que ver y visitar en un viaje por España</h4>
+              <div class="chip">21 Octubre 2019<i class="material-icons left">date_range</i></div>
+              <div class="chip">Madrid-España<i class="material-icons left">location_on</i></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="s12 m12 l4 col">
+              <img src="img/espana.jpg" class="responsive-img z-depth-4"/>
+            </div>
+            <div class="s12 m12 l8 col">
+              <p style="text-align:justify">Los atractivos de España desde el punto de vista turístico son indudables, y por eso se ha convertido en los últimos años
+                en el segundo país del mundo en la recepción de turistas internacionales.
+                Con independencia de los gustos y preferencias que cada uno tenga,
+                España ofrece una gran variedad de opciones turísticas, ya sean viajes de sol y playa, viajes culturales para conocer el
+                extenso patrimonio o viajes de naturaleza
+                Así cabe destacar que España conserva uno de los patrimonios histórico y cultural de la Unesco más importantes del mundo.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="s12 m12 l12 col">
+              <p style="text-align:justify">Para ayudaros a planificar un viaje de turismo por España, tanto si eres residente en nuestro país, como si vienes
+                de otro lugar, a continuación vamos a haceros un resumen de las múltiples opciones que tienes.
+                Para acceder de forma rápida a la información de cada zona geográfica del país, puedes pinchar en su
+                nombre en el cuadro superior e irás directamente a la información específica del destino por el que estás interesado.
+                Desde ahí tienes acceso a los enlaces a artículos con información más detallada de los lugares más
+                interesantes para visitar en España, y además te sugeriremos otros sitios de los que aún no tenemos publicaciones en el blog.
+                Bien sitios que conocemos pero que hace mucho tiempo que no hemos vuelto a visitar, y otros rincones
+                que aún no conocemos. pero que sabemos de sus atractivos.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="s12 m12 l12 col">
+              <div class="input-field col s12 m12 l12">
+                <i class="material-icons prefix">comment</i>
+                <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                <label for="icon_prefix2">Comentario</label>
+              </div>
+            </div>
+          </div>
 
-
-
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
-</body>
+        </div>   <!-- FIN 9 COLUMNAS-->
+        <div class="s12 m6 l3 col">
+          <div class="col s12 m12 l12">
+            <img class="responsive-img imgRedonda" src="img/perfil.jpg">
+            <h4 style="text-align:center">¡Hola! Somos Jota y Dani, los viajeros</h4>
+            <div class="col">
+              <p style="text-align:center">Nací hace 31 años en Liniers, Buenos Aires, con una camiseta de Vélez en la cuna.
+                Al poco tiempo me mudé con mi familia a Nibbiano, un pueblito en las montañas del norte de Italia, donde soy
+                recordado por caerme enfrente de todos al cortar la cinta de inauguración del jardín local.
+                Mi abuela me regaló el Atlas Larousse ’94 cuando tenía siete años y desde ese día me volví un adicto a los mapas.
+                Jugaba a aprender todas las banderas y capitales, molestando a todos para que “me tomaran prueba”. Nunca me
+                interesé mucho en los países más conocidos, sino que tengo obsesión por los puntos perdidos en el mapa y lugares extremos.
+                Paso horas buscando información de cómo es la vida en los lugares remotos que sueño conocer: Svalbard, las islas Pitcairn,
+                Tuvalu, Tokelau, Kiribati, Groenlandia, Papúa Nueva Guinea… cuanto más difícil de llegar sea y menos influenciado por el
+                turismo esté, más me entusiasma.Desde Paul Theroux y Pico Iyer, hasta George Orwell y Verne. Leo todo  lo que puedo,
+                pero en especial acerca de los destinos por los que viajo.El primer día de enero del 2009, con 21 años,
+                me bajé del bus turístico del cual era guía para empezar a ser el protagonista de los viajes que había soñado
+                desde que tenía siete. El Atlas que me regaló mi abuela había cobrado vida.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> <!-- INICIO FILA GENERAL-->
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/js.js"></script>
+  </body>
 </html>
